@@ -29,4 +29,7 @@ cara masukan email github
 git config --global user.email "coyrikbae@gmail.com"
 cara masukan name github
 git config --global user.name "coyrikbae"
-
+cara untuk mencek data di github
+git fetch
+cara untuk menarik data
+git pull
