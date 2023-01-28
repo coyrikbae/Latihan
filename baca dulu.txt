@@ -1,0 +1,32 @@
+untuk keluar direktori
+cd .. 
+untuk masuk direktori
+cd
+untuk membuat direktori
+mkdir
+untuk hapus (remove)
+rm
+untuk melihat isi direktori (lists)
+ls
+untuk memindahkan file atau folder (move)
+mv
+untuk cek isi direktori
+pws
+
+cara git clone
+git clone https://github.com/coyrikbae/netCourse.git
+cara lihat status data
+git status
+cara melihat terhubung
+git remote -v
+cara mengkomit
+git add .
+cara memasukan berita keterangan
+git commiit -m "message"
+cara menambahkan atau meng upload data
+git push
+cara masukan email github
+git config --global user.email "coyrikbae@gmail.com"
+cara masukan name github
+git config --global user.name "coyrikbae"
+
