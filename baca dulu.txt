@@ -33,3 +33,9 @@ cara untuk mencek data di github
 git fetch
 cara untuk menarik data
 git pull
+cara buat branch
+git checkout -b "projectname"
+cara pindah ke branch
+git checkout namabranch
+melihat semua
+git branch
