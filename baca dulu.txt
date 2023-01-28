@@ -39,3 +39,7 @@ cara pindah ke branch
 git checkout namabranch
 melihat semua
 git branch
+untuk menggabungkan github
+git merge
+untuk mengupload data branch ke origin
+git push origin
