@@ -20,8 +20,8 @@ console.log("Hello World!");
 
 let alas = 5;
 let tinggi = 3;
-let x = 0.5;
-let hasilA = x * alas * tinggi;
+let xx = 0.5;
+let hasilA = xx * alas * tinggi;
 console.log("LUAS SEGITIGA " + hasilA);
 
 /**
@@ -48,10 +48,135 @@ console.log(text1, hasilB);
  * DISPLAY hasil luas permukaan tabung
  *
  */
-var a = 2;
+var aa = 2;
 var p = 22 / 7;
 var j1 = 12;
 var j2 = 12;
 var t = 22;
-var hasilC = a * p * j1 * (j2 + t);
+var hasilC = aa * p * j1 * (j2 + t);
 console.log("LUAS PERMUKAAN TABUNG = " + hasilC);
+
+/**
+ * OPERATOR LOGIC
+ * Operator Modulus %
+ * Operator Not !
+ * Operator Equals ==
+ * Operator Or ||
+ * Operator >
+ * Operator <
+ * Operator >=
+ * Operator <=
+ */
+var hari = 100;
+var seminggu = 7;
+var hasilModulus = hari % seminggu;
+console.log("MODULUS OPERATOR = " + hasilModulus);
+
+var a = 9;
+var b = "9";
+var c = 4;
+
+var hasilNot = a !== b;
+console.log("NOT OPERATOR = " + hasilNot);
+
+// untuk mengecek tipe data dan value(nilai) dari variable menggunakan " === "
+var hasilEqual = a === b;
+console.log("EQUAL OPERATOR = " + hasilEqual);
+
+var umur = 17;
+var umur1 = 15;
+if (umur >= 17) {
+    
+    console.log("BUAT KTP");
+} else if (umur > 17) {
+
+    console.log("BUAT KTP");
+} else {
+
+    console.log("TIDAK BUAT KTP");
+}
+
+if (umur1 >= 17) {
+    
+    console.log("BUAT KTP");
+} else if (umur1 > 17) {
+
+    console.log("BUAT KTP");
+} else {
+    
+    console.log("TIDAK BUAT KTP");
+}
+
+var tinggiBadan = 160;
+var tinggiBadan1 = 150;
+if (tinggiBadan >= 160 && umur >= 17) { 
+    console.log("DAPAT TIKET");
+} else {
+    console.log("TIDAK DAPAT TIKET");
+}
+
+if (tinggiBadan1 >= 160 && umur1 >= 17) { 
+    console.log("DAPAT TIKET");
+} else {
+    console.log("TIDAK DAPAT TIKET");
+}
+
+/**
+ * A. Cek bilangan genap ganjil 
+ * 
+ */
+var x = 5;
+var y = 10;
+if (y % 2 == 0) {
+    console.log("GENAP");
+} else {
+    console.log("GANJIL");
+}
+
+/**
+ * B. Cek score nilai
+ * 
+ * Garde A : score antara 100 - 85
+ * Grade B : score antara 84 - 70
+ * Grade C : score antara 69 - 55
+ * Grade D : score antara 54 - 40
+ * Grade E : score antara 39 - 0
+ * 
+ */
+var scoreA = 65;
+if (scoreA > 85) {
+    console.log("A");
+} else if (scoreA > 70 || scoreA < 84) {
+    console.log("B");
+} else if (scoreA > 55 || scoreA < 69) {
+    console.log("C");
+} else if (scoreA > 54 || scoreA < 40) {
+    console.log("D");
+} else {
+    console.log("E");
+}
+
+/**
+ * Study Case 2
+ * 
+ * 1. Promo code "Discount10%":
+ * - jika beli di atas atau sama dengan 500000, maka discount 10%
+ * - jika beli di antara 300.000 sd 500.000, maka discount 5%
+ * - jika beli di bawah 300.000, maka discount 2.5%
+ * 
+ * 2. Promo code "DiscountHarbolnas":
+ * - jika beli di atas atau sama dengan 250.000, maka discount 15%
+ * - jika beli di bawah 250.000, maka discount 0%
+ * 
+ */
+var beli = 250000;
+var promoA = "Discount10%";
+var promoB = "DiscountHarbolnas";
+
+if (beli >= 500000 && "Discount10%" == promoA) { 
+    console.log("discount10%")
+} else if (beli >= 300000 || beli <= 500000) {
+    console.log("discount5%")
+} else if (beli <= 300000) {
+    console.log("discount2.5%");
+}
