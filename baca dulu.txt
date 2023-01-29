@@ -1,4 +1,5 @@
 cara penggunaan gitbash
+
 untuk keluar direktori
 cd .. 
 untuk masuk direktori
@@ -15,6 +16,7 @@ untuk cek isi direktori
 pws
 
 cara penggunaan github
+
 cara git clone
 git clone https://github.com/coyrikbae/netCourse.git
 cara lihat status data
@@ -46,3 +48,20 @@ git merge
 untuk mengupload data branch net
 git push origin net
 tes
+
+6 tipe data primitif javascript
+
+1. number
+2. string
+3. boolean
+4. object
+5. undifined
+6. null
+
+2 tipe operator
+
+1. operator logic
+    ==, !==, <, >, <=, >=
+
+2. operator math
+    *, /, +, -
