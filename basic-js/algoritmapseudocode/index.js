@@ -85,30 +85,9 @@ console.log("EQUAL OPERATOR = " + hasilEqual);
 
 var umur = 17;
 var umur1 = 15;
-if (umur >= 17) {
-    
-    console.log("BUAT KTP");
-} else if (umur > 17) {
-
-    console.log("BUAT KTP");
-} else {
-
-    console.log("TIDAK BUAT KTP");
-}
-
-if (umur1 >= 17) {
-    
-    console.log("BUAT KTP");
-} else if (umur1 > 17) {
-
-    console.log("BUAT KTP");
-} else {
-    
-    console.log("TIDAK BUAT KTP");
-}
-
 var tinggiBadan = 160;
 var tinggiBadan1 = 150;
+
 if (tinggiBadan >= 160 && umur >= 17) { 
     console.log("DAPAT TIKET");
 } else {
@@ -143,7 +122,7 @@ if (y % 2 == 0) {
  * Grade E : score antara 39 - 0
  * 
  */
-var scoreA = 60;
+var scoreA = 54.5;
 
 if (scoreA >= 85) {
     console.log("A");
