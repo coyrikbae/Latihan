@@ -143,14 +143,15 @@ if (y % 2 == 0) {
  * Grade E : score antara 39 - 0
  * 
  */
-var scoreA = 65;
-if (scoreA > 85) {
+var scoreA = 60;
+
+if (scoreA >= 85) {
     console.log("A");
-} else if (scoreA > 70 || scoreA < 84) {
+} else if (scoreA >= 70) {
     console.log("B");
-} else if (scoreA > 55 || scoreA < 69) {
+} else if (scoreA >= 55) {
     console.log("C");
-} else if (scoreA > 54 || scoreA < 40) {
+} else if (scoreA >= 54) {
     console.log("D");
 } else {
     console.log("E");
@@ -169,14 +170,23 @@ if (scoreA > 85) {
  * - jika beli di bawah 250.000, maka discount 0%
  * 
  */
-var beli = 250000;
+
 var promoA = "Discount10%";
 var promoB = "DiscountHarbolnas";
 
-if (beli >= 500000 && "Discount10%" == promoA) { 
-    console.log("discount10%")
-} else if (beli >= 300000 || beli <= 500000) {
-    console.log("discount5%")
-} else if (beli <= 300000) {
-    console.log("discount2.5%");
+var beli = 249990;
+var kuponA = promoB;
+
+if (kuponA == promoA && beli >= 500000) {
+    console.log("discount10%, kembalian= Rp." + beli*0.9)
+} else if (kuponA == promoA && beli >= 300000) {
+    console.log("discount5%, kembalian= Rp." + beli*0.05);
+} else if (kuponA == promoA && beli >= 10000) {
+    console.log("discount2.5%, kembalian= Rp." + beli*0.025);
+} else if (kuponA == promoB && beli >= 250000) {
+    console.log("discount15%, kembalian= Rp." + beli*0.15);
+} else if (kuponA == promoB && beli < 250000) {
+    console.log("discount0%, kembalian= 0");
+} else {
+    console.log("discount0%");
 }
