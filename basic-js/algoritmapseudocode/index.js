@@ -16,13 +16,13 @@
  * DISPLAY luas
  * 
  */
-console.log("Hello World!");
+// console.log("Hello World!");
 
-let alas = 5;
-let tinggi = 3;
-let xx = 0.5;
-let hasilA = xx * alas * tinggi;
-console.log("LUAS SEGITIGA " + hasilA);
+// let alas = 5;
+// let tinggi = 3;
+// let xx = 0.5;
+// let hasilA = xx * alas * tinggi;
+// console.log("LUAS SEGITIGA " + hasilA);
 
 /**
  * B. Hitung luas lingkaran
@@ -33,11 +33,11 @@ console.log("LUAS SEGITIGA " + hasilA);
  * DISPLAY hasil luas lingkaran
  * 
  */
-var jari = 15;
-var jari2 = 15;
-var hasilB = 22/7 * jari * jari2;
-var text1 = "LUAS LINGKARAN = ";
-console.log(text1, hasilB);
+// var jari = 15;
+// var jari2 = 15;
+// var hasilB = 22/7 * jari * jari2;
+// var text1 = "LUAS LINGKARAN = ";
+// console.log(text1, hasilB);
 
 /**
  * C. Tentukan luas permukaan tabung
@@ -48,13 +48,13 @@ console.log(text1, hasilB);
  * DISPLAY hasil luas permukaan tabung
  *
  */
-var aa = 2;
-var p = 22 / 7;
-var j1 = 12;
-var j2 = 12;
-var t = 22;
-var hasilC = aa * p * j1 * (j2 + t);
-console.log("LUAS PERMUKAAN TABUNG = " + hasilC);
+// var aa = 2;
+// var p = 22 / 7;
+// var j1 = 12;
+// var j2 = 12;
+// var t = 22;
+// var hasilC = aa * p * j1 * (j2 + t);
+// console.log("LUAS PERMUKAAN TABUNG = " + hasilC);
 
 /**
  * OPERATOR LOGIC
@@ -67,50 +67,50 @@ console.log("LUAS PERMUKAAN TABUNG = " + hasilC);
  * Operator >=
  * Operator <=
  */
-var hari = 100;
-var seminggu = 7;
-var hasilModulus = hari % seminggu;
-console.log("MODULUS OPERATOR = " + hasilModulus);
+// var hari = 100;
+// var seminggu = 7;
+// var hasilModulus = hari % seminggu;
+// console.log("MODULUS OPERATOR = " + hasilModulus);
 
-var a = 9;
-var b = "9";
-var c = 4;
+// var a = 9;
+// var b = "9";
+// var c = 4;
 
-var hasilNot = a !== b;
-console.log("NOT OPERATOR = " + hasilNot);
+// var hasilNot = a !== b;
+// console.log("NOT OPERATOR = " + hasilNot);
 
 // untuk mengecek tipe data dan value(nilai) dari variable menggunakan " === "
-var hasilEqual = a === b;
-console.log("EQUAL OPERATOR = " + hasilEqual);
+// var hasilEqual = a === b;
+// console.log("EQUAL OPERATOR = " + hasilEqual);
 
-var umur = 17;
-var umur1 = 15;
-var tinggiBadan = 160;
-var tinggiBadan1 = 150;
+// var umur = 17;
+// var umur1 = 15;
+// var tinggiBadan = 160;
+// var tinggiBadan1 = 150;
 
-if (tinggiBadan >= 160 && umur >= 17) { 
-    console.log("DAPAT TIKET");
-} else {
-    console.log("TIDAK DAPAT TIKET");
-}
+// if (tinggiBadan >= 160 && umur >= 17) { 
+//     console.log("DAPAT TIKET");
+// } else {
+//     console.log("TIDAK DAPAT TIKET");
+// }
 
-if (tinggiBadan1 >= 160 && umur1 >= 17) { 
-    console.log("DAPAT TIKET");
-} else {
-    console.log("TIDAK DAPAT TIKET");
-}
+// if (tinggiBadan1 >= 160 && umur1 >= 17) { 
+//     console.log("DAPAT TIKET");
+// } else {
+//     console.log("TIDAK DAPAT TIKET");
+// }
 
 /**
  * A. Cek bilangan genap ganjil 
  * 
  */
-var x = 5;
-var y = 10;
-if (y % 2 == 0) {
-    console.log("GENAP");
-} else {
-    console.log("GANJIL");
-}
+// var x = 5;
+// var y = 10;
+// if (y % 2 == 0) {
+//     console.log("GENAP");
+// } else {
+//     console.log("GANJIL");
+// }
 
 /**
  * B. Cek score nilai
@@ -122,19 +122,19 @@ if (y % 2 == 0) {
  * Grade E : score antara 39 - 0
  * 
  */
-var scoreA = 54.5;
+// var scoreA = 54.5;
 
-if (scoreA >= 85) {
-    console.log("A");
-} else if (scoreA >= 70) {
-    console.log("B");
-} else if (scoreA >= 55) {
-    console.log("C");
-} else if (scoreA >= 54) {
-    console.log("D");
-} else {
-    console.log("E");
-}
+// if (scoreA >= 85) {
+//     console.log("A");
+// } else if (scoreA >= 70) {
+//     console.log("B");
+// } else if (scoreA >= 55) {
+//     console.log("C");
+// } else if (scoreA >= 54) {
+//     console.log("D");
+// } else {
+//     console.log("E");
+// }
 
 /**
  * Study Case 2
@@ -150,22 +150,29 @@ if (scoreA >= 85) {
  * 
  */
 
-var promoA = "Discount10%";
-var promoB = "DiscountHarbolnas";
+// var promoA = "Discount10%";
+// var promoB = "DiscountHarbolnas";
 
-var beli = 249990;
-var kuponA = promoB;
+// var beli = 249990;
+// var kuponA = promoB;
 
-if (kuponA == promoA && beli >= 500000) {
-    console.log("discount10%, kembalian= Rp." + beli*0.9)
-} else if (kuponA == promoA && beli >= 300000) {
-    console.log("discount5%, kembalian= Rp." + beli*0.05);
-} else if (kuponA == promoA && beli >= 10000) {
-    console.log("discount2.5%, kembalian= Rp." + beli*0.025);
-} else if (kuponA == promoB && beli >= 250000) {
-    console.log("discount15%, kembalian= Rp." + beli*0.15);
-} else if (kuponA == promoB && beli < 250000) {
-    console.log("discount0%, kembalian= 0");
-} else {
-    console.log("discount0%");
-}
+// if (kuponA == promoA && beli >= 500000) {
+//     console.log("discount10%, kembalian= Rp." + beli*0.9)
+// } else if (kuponA == promoA && beli >= 300000) {
+//     console.log("discount5%, kembalian= Rp." + beli*0.05);
+// } else if (kuponA == promoA && beli >= 10000) {
+//     console.log("discount2.5%, kembalian= Rp." + beli*0.025);
+// } else if (kuponA == promoB && beli >= 250000) {
+//     console.log("discount15%, kembalian= Rp." + beli*0.15);
+// } else if (kuponA == promoB && beli < 250000) {
+//     console.log("discount0%, kembalian= 0");
+// } else {
+//     console.log("discount0%");
+// }
+
+// Rumus volume tabung = p * r^2 * t
+var p = 3.14;
+var r = 2;
+var t = 4;
+var volume = p * (r*r) * t;
+console.log("Volume tabung = " + volume);
