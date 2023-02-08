@@ -1,15 +1,65 @@
+CARA PENGGUNAAN GITHUB:
+cara git clone
+git clone https://github.com/coyrikbae/netCourse.git
+
+cara lihat status data
+git status
+
+cara buat branch dan pindah ke branch yg baru
+git checkout -b "projectname"
+
+cara pindah ke branch
+git checkout namabranch
+
+cara daftarkan data yang berubah
+git add .
+
+cara mengkomit dan buat berita keterangan
+git commiit -m "message"
+
+cara menambahkan atau meng upload data
+git push origin namabranch
+
+cara masukan email github
+git config --global user.email "coyrikbae@gmail.com"
+
+cara masukan name github
+git config --global user.name "coyrikbae"
+
+cara untuk mencek data di github
+git fetch
+
+cara untuk menarik data
+git pull
+
+melihat semua
+git branch
+
+untuk menggabungkan github
+git merge
+
+remote repository berfungsi untuk mengupload file yang telah Anda buat sebelumnya di local disk
+$ git remote add origin git@github.com:UserNameGit/NamaRepository.git
+
+CARA PENGGUNAAN GITBASH
 untuk keluar direktori
-cd .. 
+cd ..
+
 untuk masuk direktori
 cd
+
 untuk membuat direktori
 mkdir
+
 untuk hapus (remove)
 rm
+
 untuk melihat isi direktori (lists)
 ls
+
 untuk memindahkan file atau folder (move)
 mv
+
 untuk cek isi direktori
 pws
 
