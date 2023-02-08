@@ -73,3 +73,9 @@ git merge
 
 2. operator math
     *, /, +, -
+
+Menambahkan ke dalam array 
+item.push("mouse");
+
+Menghapus value/nilai dari belakang 
+item.pop();
