@@ -62,35 +62,3 @@ mv
 
 untuk cek isi direktori
 pws
-
-cara git clone
-git clone https://github.com/coyrikbae/netCourse.git
-cara lihat status data
-git status
-cara melihat terhubung
-git remote -v
-cara mengkomit
-git add .
-cara memasukan berita keterangan
-git commiit -m "message"
-cara menambahkan atau meng upload data
-git push
-cara masukan email github
-git config --global user.email "coyrikbae@gmail.com"
-cara masukan name github
-git config --global user.name "coyrikbae"
-cara untuk mencek data di github
-git fetch
-cara untuk menarik data
-git pull
-cara buat branch
-git checkout -b "projectname"
-cara pindah ke branch
-git checkout namabranch
-melihat semua
-git branch
-untuk menggabungkan github
-git merge
-untuk mengupload data branch ke origin
-git push origin
-tes
