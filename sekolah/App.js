@@ -124,7 +124,7 @@ const updatedStudents = updateMarks(students, 'John', 'johndoe', 1122, [60, 75, 
 console.log(updatedStudents);
 
 // function delete with warning message
-function deleteStudent(students, index) {
+/*function deleteStudent(students, index) {
   if (index >= 0 && index < students.length) {
     const confirmDelete = confirm(`Are you sure you want to delete ${students[index].name}?`);
     if (confirmDelete) {
@@ -138,4 +138,4 @@ function deleteStudent(students, index) {
   }
 }
 
-deleteStudent(students, 2);
+deleteStudent(students, 2);*/
