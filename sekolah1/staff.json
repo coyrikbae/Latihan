@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "nama": "Dave Dunn",
+        "gender": "Male",
+        "usernama": "dave",
+        "password": "1111",
+        "email": "dave@gmail.com",
+        "created_at": "21-02-2023",
+        "status": "owner"
+    },
+    {
+        "id": 2,
+        "nama": "Mila",
+        "gender": "Female",
+        "usernama": "mila",
+        "password": "2222",
+        "email": "mila@email.com",
+        "created_at": "21-02-2023",
+        "status": "admin"
+    },
+    {
+        "id": 3,
+        "nama": "Jean Low",
+        "gender": "Female",
+        "usernama": "jean",
+        "password": "3333",
+        "email": "jean@email.com",
+        "created_at": "21-02-2023",
+        "status": "staff1"
+    }
+]
