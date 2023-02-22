@@ -1,5 +1,4 @@
 const LoginView = require('../views/LoginView.js');
-const Login = require('../models/Login.js');
 
 class LoginController {
     static help() {

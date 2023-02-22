@@ -24,3 +24,4 @@ switch (command) {
         //
         LoginController.default();
 }
+module.exports = command;

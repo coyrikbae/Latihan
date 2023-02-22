@@ -1,5 +1,4 @@
 const fs = require('fs');
-const LoginController = require('../controllers/LoginController.js');
 
 class Login {
     //
@@ -28,7 +27,6 @@ class Login {
         const [usernama, password] = params;
         // console.log(usernama, password);
         let logins = this.getUser();
-        
         logins = logins.some(employee => {
             if (employee.usernama === usernama && employee.password === password) {
                 console.log(`user: ${employee.usernama} - ${employee.status} berhasil login.`);
@@ -39,7 +37,6 @@ class Login {
             }
         });
         console.log(logins);
-        LoginController.list();
     }
     static display() {
         let logins = this.getUser();

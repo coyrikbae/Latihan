@@ -1,16 +1,23 @@
 [
-    {
-     "id": 1,
-     "task": "Belajar Node.js",
-     "status": true,
-     "created_at": "2020-04-07T14:31:44.338Z",
-     "completed_at": "2020-04-07T14:31:44.338Z"
+   {
+      "id": 1,
+      "task": "Algo. Basic",
+      "status": true,
+      "created_at": "2023-02-22T16:14:34.426Z",
+      "completed_at": "2023-02-22T16:24:44.255Z"
    },
    {
-     "id": 2,
-     "task": "Download Stream",
-     "status": false,
-     "created_at": "2020-04-07T14:31:44.338Z",
-     "completed_at": null
+      "id": 2,
+      "task": "JS #1",
+      "status": true,
+      "created_at": "2023-02-22T16:17:58.822Z",
+      "completed_at": "2023-02-22T16:23:45.992Z"
+   },
+   {
+      "id": 3,
+      "task": "Java Script#2",
+      "status": false,
+      "created_at": "2023-02-22T16:23:06.561Z",
+      "completed_at": null
    }
- ]
+]

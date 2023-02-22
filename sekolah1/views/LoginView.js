@@ -11,16 +11,6 @@ class LoginView {
     static login(params) { 
         // console.log(params);
         Login.enterLogin(params);
-        // let hasil = Login.enterLogin(params);
-        // const [hasil2] = hasil;
-        // console.log(hasil2);
-        // switch (hasil2) {
-        //     case true:
-        //         LoginView.list();
-        //         break;
-        //     default:
-        //         false;
-        // }
     }
     static daftar() { 
         //
